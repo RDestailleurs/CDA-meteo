@@ -1,5 +1,6 @@
 import { s } from "./MeteoAdvanced.style";
-import { View, Txt } from "react-native"
+import { View } from "react-native";
+import { Txt } from "../components/Txt";
 export function MeteoAdvanced({dusk, down, wind}){
 
     return (

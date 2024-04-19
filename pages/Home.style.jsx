@@ -2,10 +2,10 @@ import { StyleSheet } from "react-native";
 
 const s = StyleSheet.create({
     meteo_basic : {
-        flex : 1
+        flex : 2
     },
     searchbar : {
-        flex : 2
+        flex : 0.5
     },
     meteo_advanced: {
         flex : 1
