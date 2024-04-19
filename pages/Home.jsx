@@ -35,7 +35,6 @@ export function Home () {
    
     async function fetchWeather(coordinates){
         const weatherResponse = await MeteoAPI.fetchWeatherFromCoords(coordinates);
-        console.log(weatherResponse);
         setWeather(weatherResponse);
 
     }
@@ -65,9 +64,6 @@ export function Home () {
             fetchCity(coords)
         }
     }, [coords]);
-
-    console.log(currentWeather);
-    console.log(currentWeather?.temperature);
 
     return (
         currentWeather?

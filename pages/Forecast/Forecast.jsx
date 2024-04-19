@@ -14,7 +14,6 @@ export function Forecast ({}) {
             <Txt>{"<"}</Txt>
         </TouchableOpacity>
     )
-    console.log(params.city);
     const header = (
         <View style = {s.header}>
             {backButton}

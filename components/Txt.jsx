@@ -8,7 +8,5 @@ export function Txt({children, style}) {
 
     const echelle = 1 / height;
 
-    console.log(fontSize * echelle + height);
-
     return <Text style= { [s.text, style, {fontSize: fontSize * echelle * height}]}>{children}</Text>
 }
